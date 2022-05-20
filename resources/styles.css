@@ -1,0 +1,409 @@
+main {
+  margin: 25px 10% 35px 10%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+
+header {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+nav {
+  display: inline-block;  
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: solid 2px #6B6D64;   
+  margin: 0 auto;
+  padding: 50px auto;
+  font-family: 'Roboto', "Geneva", Verdana, sans-serif;
+  font-size: 18px;   
+  width: 100%;   
+  }
+
+nav ul{
+  padding: 15px 40px;   
+  display: inline-block;  
+}
+
+nav ul a { 
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #3F403C;
+  padding: 5px 18px;  
+}
+
+nav ul a:hover { 
+  text-decoration: underline;
+  color: #A59185;  
+  
+  transition: color .25s ease-in;  
+}
+
+
+/* Font Styling */
+
+h1 {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 5px 0 25px;
+  color: #3F403C;  
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 34px;
+  padding: 10px 0;  
+  display: block;
+  font-weight: 700;
+  color: #3F403C;
+  text-indent: 1%;
+}
+
+h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #3F403C;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: underline;  
+}
+
+
+/* Container Box */
+
+.container {
+  border: 2px solid #6B6D64;
+  padding: 15px;
+  margin: 50px auto 10px;
+}
+
+
+/* Color-Palette Section */
+
+.color-container {
+  display: block;
+  width: 100%;  
+  margin: 15px 1%;
+}
+
+.color-container p {
+  font-family: 'Roboto', "Geneva", Verdana, sans-serif;
+  font-size: 13px;  
+  display: block;
+  margin-block-start: 5.3em;
+  margin-block-end: -3.8em; 
+  line-height: 0px;
+}
+
+.A59185 {
+  background-color: #A59185;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.B69F93 {
+  background-color: #B69F93;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.CFC1B8 {
+  background-color: #CFC1B8;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.F5EAE2 {
+  background-color: #F5EAE2;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.CDC7BD {
+  background-color: #CDC7BD;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.B5B5AD {
+  background-color: #B5B5AD;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.A3A398 {
+  background-color: #A3A398;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.c-6B6D64 {
+  background-color: #6B6D64;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+.c-3F403C {
+  background-color: #3F403C;  
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 2px auto;
+  min-height: 115px;
+}
+
+
+/* ------- Font Section ------- */
+
+.container-alabaster {
+  border: 2px solid #6B6D64;
+  padding: 15px;
+  margin: 50px auto 10px;
+  background-color: #F5EAE2;
+}
+
+.font-container {
+  display: block;
+  width: 100%;  
+  margin: 0 1%;   
+}
+
+.font-container p {
+  font-size: 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  
+}
+
+.lato {
+  display: inline-block;
+  text-align: left;
+  margin: 30px 25px 15px auto;
+  width: 45%;
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;  
+}
+
+.lato-1 {
+  font-style: normal;
+  font-weight: 400;  
+}
+
+.lato-2 {
+  font-style: italic;
+  font-weight: 400;  
+}
+
+.lato-3 {
+  font-style: normal;
+  font-weight: 700;  
+}
+
+.lato-4 {
+  font-style: italic;
+  font-weight: 700;  
+}
+
+.lato-5 {
+  font-style: normal;
+  font-weight: 900;  
+}
+
+.roboto {
+  display: inline-block;
+  text-align: left;
+  margin: 30px auto 15px;
+  width: 45%;
+  font-family: 'Roboto', 'Geneva', Verdana, sans-serif;  
+}
+
+.roboto-1 {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.roboto-2 {
+  font-style: normal;
+  font-weight: 400; 
+}
+
+.roboto-3 {
+  font-style: italic;
+  font-weight: 400; 
+}
+
+.roboto-4 {
+  font-style: normal;
+  font-weight: 700; 
+}
+
+.roboto-5 {
+  font-style: normal;
+  font-weight: 900; 
+}
+
+.playfair {
+  display: inline-block;
+  text-align: left;
+  margin: 30px 25px 15px auto;
+  width: 45%;
+  font-family: 'Playfair Display', Georgia, serif;  
+}
+
+.playfair-1 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.playfair-2 {
+  font-style: italic;
+  font-weight: 400;  
+}
+
+.playfair-3 {
+  font-style: normal;
+  font-weight: 600;  
+}
+
+.playfair-4 {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.spacemono {
+  display: inline-block;  
+  text-align: left;
+  margin: 30px auto 15px;
+  width: 45%;
+  font-family: 'Space Mono', "Courier New", Courier, monospace;
+}
+
+.spacemono-1 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacemono-2 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.spacemono-3 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/* ------- Text Styles Section ------- */
+
+.textstyle-container {
+  display: block;
+  width: 100%;  
+  margin: 0 1%;    
+}
+
+.textstyle-container ul{
+  margin: 15px auto 0 2%;
+  font-family: 'Roboto', 'Geneva', Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3F403C;  
+  list-style-type: "- ";
+}
+
+.textstyle-container li{
+  margin: 10px auto;
+}
+
+.textstyle-container h3 {
+   text-decoration: none;
+}
+
+.text-h1 {
+  margin: 30px auto 50px;
+}
+
+.text-h1 h3 {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;  
+  color: #3F403C;  
+}
+
+.text-h2 {
+  margin: 35px auto 50px;
+}
+
+.text-h2 h3 {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 34px;  
+  font-weight: 700;
+  color: #3F403C;  
+}
+
+.text-p {
+  margin: 35px auto 15px;
+}
+
+.text-p h3{
+  font-family: 'Roboto', 'Geneva', Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3F403C;  
+}
+
+
+/* Footer */
+
+footer {
+  position: absolute;
+  height: 50px;
+  width: 100%;  
+  margin-top: 7%;
+  background-color: #F5EAE2;
+  border-top: solid 3px #A59185  
+}
+
+footer p {
+  padding-right: 2%;
+  margin-top: 15px;
+  text-align: right;
+  font-family: Georgia, serif;
+  font-size: 12px;  
+  color: #3F403C;
+  font-weight: 500;  
+  letter-spacing: .05em;  
+}
