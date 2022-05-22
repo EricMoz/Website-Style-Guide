@@ -95,11 +95,10 @@ h3 {
 
 .color-container p {
   font-family: 'Roboto', "Geneva", Verdana, sans-serif;
-  font-size: 13px;  
+  font-size: 12px;  
   display: block;
-  margin-block-start: 5.3em;
-  margin-block-end: -3.8em; 
-  line-height: 0px;
+  margin-block-start: 5.3em; 
+  line-height: 17px;
 }
 
 .A59185 {
